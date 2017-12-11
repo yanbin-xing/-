@@ -16,6 +16,7 @@
 @property (strong, nonatomic) NSMutableArray *imgViews;
 @property (assign, nonatomic) NSInteger totalCount;
 @property (assign, nonatomic) NSInteger curIndex;
+@property (strong, nonatomic) NSTimer *timer;
 @end
 
 @implementation CircleScrollImageView
