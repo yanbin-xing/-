@@ -1,10 +1,10 @@
 
 //
 //  CircleScrollImageView.m
-//  SenXianBao
+//  MyProject
 //
-//  Created by administrator on 2017/12/8.
-//  Copyright © 2017年 IOS Develope Team. All rights reserved.
+//  Created by xyb on 2017/12/8.
+//  Copyright © 2017年 xyb. All rights reserved.
 //
 
 #import "CircleScrollImageView.h"
