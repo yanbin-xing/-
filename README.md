@@ -8,9 +8,8 @@ CircleScrollImageView *imgScrollView = [[CircleScrollImageView alloc] initWithFr
 [imgScrollView setImgUrls:@[@"",@"",@""]];
 
 二、回调处理
-@protocol CircleScrollImageViewDelegate <NSObject>
+CircleScrollImageViewDelegate
 //当前展示图片索引，用于定制UIPageControl
 - (void)onShowContentAtIndex:(NSInteger)index;
 //被点击图片索引
 - (void)onTouchAtIndex:(NSInteger)index;
-@end
