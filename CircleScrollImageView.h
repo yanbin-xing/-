@@ -18,5 +18,4 @@
 
 @property (assign, nonatomic) id<CircleScrollImageViewDelegate> delegate;
 @property (strong, nonatomic) NSArray *imgUrls;
-@property (strong, nonatomic) NSTimer *timer;
 @end
